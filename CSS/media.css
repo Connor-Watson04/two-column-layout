@@ -144,6 +144,11 @@
   .signup-btn {
     width: 250px;
   }
+
+  #footer {
+    padding-left: 2rem;
+  }
+
   .footer-grid {
     grid-template-columns: 300px;
   }
@@ -155,6 +160,6 @@
   }
   .footer-icons {
     width: 200px;
-    padding-left: 3rem;
+    padding-left: 5.2rem;
   }
 }
