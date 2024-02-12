@@ -1,0 +1,156 @@
+@media (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", "Raleway";
+  }
+
+  .banner {
+    margin: 15px 10px 50px 10px;
+    gap: 4rem;
+  }
+
+  .main-logo {
+    height: 30px;
+  }
+  .header-link {
+    font-size: 14px;
+    margin-right: 14px;
+  }
+  .heading-main {
+    grid-template-columns: 350px;
+    margin: 7px;
+  }
+  .heading-primary {
+    text-align: center;
+    font-size: 25px;
+    padding: 0;
+  }
+
+  .header-text {
+    padding: 0;
+    text-align: center;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .header-content {
+    grid-area: 2/1;
+  }
+  .illustration {
+    height: 250px;
+  }
+  .header-illustration {
+    margin-bottom: 1.2rem;
+  }
+  .form {
+    padding: 0 0.8rem;
+  }
+
+  .email {
+    width: 295px;
+  }
+
+  .productivity-background {
+    background-color: #fff;
+  }
+
+  .productivity-background-mobile {
+    visibility: visible;
+    position: relative;
+    top: 10px;
+  }
+  .productivity-background-desktop {
+    opacity: 0;
+    width: 0;
+  }
+  .productivity-grid {
+    grid-template-columns: 350px;
+    padding: 0;
+    padding-top: 3rem;
+    margin-left: 1rem;
+  }
+  .productivity-right {
+    grid-area: 1/1;
+  }
+  .productivity-img {
+    height: 250px;
+  }
+
+  .heading-secondary {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .productivity-text {
+    padding: 0;
+  }
+  .fylo-link {
+    justify-content: center;
+  }
+
+  .comment {
+    width: 300px;
+  }
+
+  .quote {
+    font-size: 14px;
+  }
+
+  .signup-content {
+    text-align: center;
+  }
+
+  .sign-up {
+    padding: 2rem 1rem;
+  }
+  .signup-grid {
+    grid-template-columns: 340px;
+    gap: 0;
+  }
+  .heading-tertiary {
+    font-size: 20px;
+  }
+
+  .signup-form {
+    padding-left: 2.5rem;
+  }
+
+  .hidden-form {
+    display: grid;
+  }
+  .valid-container {
+    grid-area: 1/1;
+    margin-top: 0;
+  }
+  .newsletter-email {
+    width: 220px;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+  }
+  .signup-text {
+    padding: 6px;
+    margin-bottom: 0;
+  }
+
+  .signup-btn {
+    width: 250px;
+  }
+  .footer-grid {
+    grid-template-columns: 300px;
+  }
+
+  .information {
+    grid-template-columns: 300px;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  .footer-icons {
+    width: 200px;
+    padding-left: 3rem;
+  }
+}
